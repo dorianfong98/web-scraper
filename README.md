@@ -31,8 +31,16 @@
 ## About The Project
 This is a Web Scraper application built to extract data from any web page quickly and accurately.
 
+Built with Javascript, Node.js, and Express.js, Axios and Cheerio dependencies for npm.
+
 This particular application I have coded specifically extracts headlines and article links from UK news source The Guardian, but you may modify and adapt the code accordingly for any other Website's HTML elements.
 
+[Express.js](https://expressjs.com/) is a Node.js back end web application framework that provides broad features for building web and mobile applications. It is used to build a single page, multipage, and hybrid web application. 
+
+[Cheerio](https://www.npmjs.com/package/cheerio) is a package to pick out HTML elements on a web page. It works by parsing markup and provides an API for traversing and manipulating the resulting data structure. Cheerio's selector implementation is nearly identical to that of jQuery.
+
+[Axios](https://www.npmjs.com/package/axios), a rather popular and widely-used package, is a promise-based HTTP client for the browser and Node.js. Axios essentially makes it easy to send HTTP requests to rest endpoints and perform CRUD operations - this means that it can be used to get, post, put and delete data. 
+ 
 ## Getting Started
 
 To get started using the application, simply download the .zip file and open the web-scraper.exe executable. 
