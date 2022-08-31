@@ -42,13 +42,13 @@ To check and kill processes running on the port:
 
 For **Linux/Mac OS** search (sudo) run this in the terminal:
 
-`$ lsof -i tcp:3000 
-$ kill -9 PID`
+`$ lsof -i tcp:3000` 
+`$ kill -9 PID`
 
 On **Windows**:
 
-`netstat -ano | findstr :3000
-tskill typeyourPIDhere` 
+`netstat -ano | findstr :3000`
+`tskill typeyourPIDhere` 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
